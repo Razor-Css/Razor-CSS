@@ -1,0 +1,67 @@
+:root {
+    --rz-dsc-darkmode-newblurple: #5865F2;
+    --rz-dsc-darkmode-oldblurple: #6E85D3;
+    --rz-dsc-darkmode-selected: #393C43;
+    --rz-dsc-darkmode-hovered: #34373C;
+    --rz-dsc-darkmode-textbox: #40444B;
+    --rz-dsc-darkmode-button: #B9BBBE;
+    --rz-dsc-darkmode-body: #36393F;
+    --rz-dsc-darkmode-bodyhovered: #32353B;
+    --rz-dsc-darkmode-scrollbar: #202225;
+    --rz-dsc-darkmode-serverbar: #202225;
+    --rz-dsc-darkmode-searchbar: #202225;
+    --rz-dsc-role-teal1: #1ABC9C;
+    --rz-dsc-role-teal2: #11806A;
+    --rz-dsc-role-green1: #2ECC71;
+    --rz-dsc-role-green2: #1F8B4C;
+    --rz-dsc-role-blue1: #3498DB;
+    --rz-dsc-role-blue2: #206694;
+    --rz-dsc-role-purple1: #9B59B6;
+    --rz-dsc-role-purple2: #71368A;
+    --rz-dsc-role-red1: #E91E63;
+    --rz-dsc-role-red2: #AD1457;
+    --rz-dsc-role-yellow1: #F1C40F;
+    --rz-dsc-role-yellow2: #C27C0E;
+    --rz-dsc-role-orange1: #E67E22;
+    --rz-dsc-role-orange2: #A84300;
+    --rz-dsc-role-red3: #E74C3C;
+    --rz-dsc-role-red4: #992D22;
+    --rz-dsc-role-grey1: #95A5A6;
+    --rz-dsc-role-grey2: #979C9F;
+    --rz-dsc-role-grey3: #607D8B;
+    --rz-dsc-role-grey4: #546E7A;
+    --rz-dsc-icon-boost-active: #FF73FA;
+    --rz-dsc-icon-boost-inactive: #B9BBBE;
+    --rz-dsc-text-deafult: #C9CBCB;
+    --rz-dsc-text-warning: #EF9D04;
+    --rz-dsc-text-danger: #ED4245;
+    --rz-dsc-text-danger-hover: #C03537;
+    --rz-dsc-lightmode-body: #FFFFFF;
+    --rz-dsc-lightmode-body-hover: #FAFAFA;
+    --rz-dsc-lightmode-searchbar: #E3E5E8;
+    --rz-dsc-lightmode-serverbar: #E3E5E8;
+    --rz-dsc-lightmode-scrollbar: #CCCCCC;
+    --rz-dsc-lightmode-icon: #4F5660;
+    --rz-dsc-status-online: #3BA55D;
+    --rz-dsc-status-idle: #FAA81A;
+    --rz-dsc-status-dnd: #ED4245;
+    --rz-dsc-status-offline: #747F8D;
+    --rz-dsc-ping: #EF5859;
+}
+/* TO DO
+Add custom div and normal elements
+Add warning danger primary link and success colors
+Allot more
+*/
+button {
+    background-color: var(--rz-dsc-darkmode-button);
+}
+body {
+    background-color: var(--rz-dsc-darkmode-body);
+}
+.danger {
+    background-color: var(--rz-dsc-text-danger);
+}
+.danger:hover {
+    background-color: var(--rz-dsc-text-danger-hover);
+}

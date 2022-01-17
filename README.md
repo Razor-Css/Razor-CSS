@@ -1,8 +1,11 @@
 # Razor CSS
+
 Welcome to the docs! Here you will learn all you need to know about Razor to use it in your own website!
+
 # Introduction
 
 CSS:<br>
+
 <div style="display: none;"><link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css" rel="stylesheet">
 <script src="https://cdn.razorcss.xyz/js/bundle.min.js"></script>
 <link href="https://cdn.razorcss.xyz/icons/style.css" rel="stylesheet"></div>
@@ -17,6 +20,7 @@ Icons:<br>
 ```
 <link href="https://cdn.razorcss.xyz/icons/style.css" rel="stylesheet">
 ```
+
 <br>
 JS:<br>
 
@@ -43,6 +47,7 @@ JS:<br>
 ```
 
 # Customizing headings
+
 <h3>
   Fancy display heading
   <small class="text-muted">With faded secondary text</small>
@@ -74,6 +79,7 @@ JS:<br>
 ```
 
 # Lead
+
 <p class="lead">
   This is a lead paragraph. It stands out from regular paragraphs.
 </p>
@@ -85,6 +91,7 @@ JS:<br>
 ```
 
 # Inline text elements
+
 <p>You can use the mark tag to <mark>highlight</mark> text.</p>
 <p><del>This line of text is meant to be treated as deleted text.</del></p>
 <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
@@ -106,6 +113,7 @@ JS:<br>
 ```
 
 # Abbreviations
+
 <p><abbr title="attribute">attr</abbr></p>
 <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
 
@@ -115,6 +123,7 @@ JS:<br>
 ```
 
 # Blockquotes
+
 <blockquote class="blockquote">
   <p>A well-known quote, contained in a blockquote element.</p>
 </blockquote>
@@ -124,7 +133,9 @@ JS:<br>
   <p>A well-known quote, contained in a blockquote element.</p>
 </blockquote>
 ```
+
 # Naming a source
+
 <figure>
   <blockquote class="blockquote">
     <p>A well-known quote, contained in a blockquote element.</p>
@@ -146,6 +157,7 @@ JS:<br>
 ```
 
 # Alignment
+
 <figure class="text-center">
   <blockquote class="blockquote">
     <p>A well-known quote, contained in a blockquote element.</p>
@@ -187,7 +199,9 @@ JS:<br>
 ```
 
 # Lists
+
 # Unstyled
+
 <ul class="list-unstyled">
   <li>This is a list.</li>
   <li>It appears completely unstyled.</li>
@@ -221,6 +235,7 @@ JS:<br>
 ```
 
 # Inline
+
 <ul class="list-inline">
   <li class="list-inline-item">This is a list item.</li>
   <li class="list-inline-item">And another one.</li>
@@ -236,6 +251,7 @@ JS:<br>
 ```
 
 # Description list alignment
+
 <dl class="row">
   <dt class="col-sm-3">Description lists</dt>
   <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
@@ -446,7 +462,9 @@ JS:<br>
   <td class="table-dark">...</td>
 </tr>
 ```
+
 # Accented tables
+
 <table class="table table-striped">
   <thead>
     <tr>
@@ -661,7 +679,9 @@ This can also be used with the dark versions and colored versions
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 ```
+
 # Disabled forms
+
 <form>
           <fieldset disabled="" aria-label="Disabled fieldset example">
             <div class="mb-3">
@@ -755,6 +775,278 @@ This can also be used with the dark versions and colored versions
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </fieldset>
+        </form>
+```
+
+# Sizing
+
+<div class="mb-3">
+          <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
+        </div>
+        <div class="mb-3">
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected="">Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <input type="file" class="form-control form-control-lg" aria-label="Large file input example">
+        </div>
+        <div class="mb-3">
+          <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
+        </div>
+        <div class="mb-3">
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected="">Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <input type="file" class="form-control form-control-sm" aria-label="Small file input example">
+        </div>
+
+```
+<div class="mb-3">
+          <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
+        </div>
+        <div class="mb-3">
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected="">Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <input type="file" class="form-control form-control-lg" aria-label="Large file input example">
+        </div>
+        <div class="mb-3">
+          <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
+        </div>
+        <div class="mb-3">
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected="">Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <input type="file" class="form-control form-control-sm" aria-label="Small file input example">
+        </div>
+```
+
+# Input group
+
+<div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">@</span>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+        <label for="basic-url" class="form-label">Your vanity URL</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text">$</span>
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+          <span class="input-group-text">.00</span>
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">With textarea</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+
+```
+<div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">@</span>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+        <label for="basic-url" class="form-label">Your vanity URL</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text">$</span>
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+          <span class="input-group-text">.00</span>
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">With textarea</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+```
+
+# Floating labels
+
+<form>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+        </form>
+
+```
+<form>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+        </form>
+```
+
+# Validation
+
+<form class="row g-3">
+          <div class="col-md-4">
+            <label for="validationServer01" class="form-label">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required="">
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required="">
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServerUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required="">
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationServer03" class="form-label">City</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" required="">
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationServer04" class="form-label">State</label>
+            <select class="form-select is-invalid" id="validationServer04" required="">
+              <option selected="" disabled="" value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationServer05" class="form-label">Zip</label>
+            <input type="text" class="form-control is-invalid" id="validationServer05" required="">
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required="">
+              <label class="form-check-label" for="invalidCheck3">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+
+```
+<form class="row g-3">
+          <div class="col-md-4">
+            <label for="validationServer01" class="form-label">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required="">
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required="">
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServerUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required="">
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationServer03" class="form-label">City</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" required="">
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationServer04" class="form-label">State</label>
+            <select class="form-select is-invalid" id="validationServer04" required="">
+              <option selected="" disabled="" value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationServer05" class="form-label">Zip</label>
+            <input type="text" class="form-control is-invalid" id="validationServer05" required="">
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required="">
+              <label class="form-check-label" for="invalidCheck3">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
         </form>
 ```
 

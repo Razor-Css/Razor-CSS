@@ -91,7 +91,8 @@ JS:<br>
 <p><strong>This line rendered as bold text.</strong></p>
 <p><em>This line rendered as italicized text.</em></p>
 
-```<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+```
+<p>You can use the mark tag to <mark>highlight</mark> text.</p>
 <p><del>This line of text is meant to be treated as deleted text.</del></p>
 <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
 <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
@@ -105,7 +106,8 @@ JS:<br>
 <p><abbr title="attribute">attr</abbr></p>
 <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
 
-```<p><abbr title="attribute">attr</abbr></p>
+```
+<p><abbr title="attribute">attr</abbr></p>
 <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
 ```
 
@@ -114,7 +116,8 @@ JS:<br>
   <p>A well-known quote, contained in a blockquote element.</p>
 </blockquote>
 
-```<blockquote class="blockquote">
+```
+<blockquote class="blockquote">
   <p>A well-known quote, contained in a blockquote element.</p>
 </blockquote>
 ```
@@ -128,7 +131,8 @@ JS:<br>
   </figcaption>
 </figure>
 
-```<figure>
+```
+<figure>
   <blockquote class="blockquote">
     <p>A well-known quote, contained in a blockquote element.</p>
   </blockquote>
@@ -148,7 +152,8 @@ JS:<br>
   </figcaption>
 </figure>
 
-```<figure class="text-center">
+```
+<figure class="text-center">
   <blockquote class="blockquote">
     <p>A well-known quote, contained in a blockquote element.</p>
   </blockquote>
@@ -167,7 +172,8 @@ JS:<br>
   </figcaption>
 </figure>
 
-```<figure class="text-end">
+```
+<figure class="text-end">
   <blockquote class="blockquote">
     <p>A well-known quote, contained in a blockquote element.</p>
   </blockquote>
@@ -194,7 +200,8 @@ JS:<br>
   <li>This may still come in handy in some situations.</li>
 </ul>
 
-```<ul class="list-unstyled">
+```
+<ul class="list-unstyled">
   <li>This is a list.</li>
   <li>It appears completely unstyled.</li>
   <li>Structurally, it's still a list.</li>
@@ -217,7 +224,8 @@ JS:<br>
   <li class="list-inline-item">But they're displayed inline.</li>
 </ul>
 
-```<ul class="list-inline">
+```
+<ul class="list-inline">
   <li class="list-inline-item">This is a list item.</li>
   <li class="list-inline-item">And another one.</li>
   <li class="list-inline-item">But they're displayed inline.</li>
@@ -250,7 +258,8 @@ JS:<br>
   </dd>
 </dl>
 
-```<dl class="row">
+```
+<dl class="row">
   <dt class="col-sm-3">Description lists</dt>
   <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
 

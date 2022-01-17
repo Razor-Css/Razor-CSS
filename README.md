@@ -3443,3 +3443,4 @@ This can also be used with the dark versions and colored versions
 </div>
 ```
 
+# Carousel close button collapse dropdowns list group modal navs & tabs navbar offcanvas pagination placeholders popovers prigress scrollspy spinners toasts and tooltips are coming soon...

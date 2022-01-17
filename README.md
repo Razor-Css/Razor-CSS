@@ -3,6 +3,9 @@ Welcome to the docs! Here you will learn all you need to know about Razor to use
 # Introduction
 
 CSS:<br>
+<div style="display: none;"><link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css">
+<script src="https://cdn.razorcss.xyz/js/bundle.min.js"></script>
+<link href="https://cdn.razorcss.xyz/icons/style.css"></div>
 
 ```
 <link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css">
@@ -283,5 +286,475 @@ JS:<br>
     </dl>
   </dd>
 </dl>
+```
+
+# Tables
+
+# Overview
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+```
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Second</th>
+      <th scope="col">Third</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Col 1</td>
+      <td>Col 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+# Variants
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Class</th>
+        <th scope="col">Heading</th>
+        <th scope="col">Heading</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Default</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+        <tr class="table-primary">
+          <th scope="row">Primary</th>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr class="table-secondary">
+          <th scope="row">Secondary</th>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">Success</th>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr class="table-danger">
+          <th scope="row">Danger</th>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr class="table-warning">
+          <th scope="row">Warning</th>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr class="table-info">
+          <th scope="row">Info</th>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr class="table-light">
+          <th scope="row">Light</th>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr class="table-dark">
+          <th scope="row">Dark</th>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+    </tbody>
+  </table>
+
+```
+<!-- On tables -->
+<table class="table-primary">...</table>
+<table class="table-secondary">...</table>
+<table class="table-success">...</table>
+<table class="table-danger">...</table>
+<table class="table-warning">...</table>
+<table class="table-info">...</table>
+<table class="table-light">...</table>
+<table class="table-dark">...</table>
+
+<!-- On rows -->
+<tr class="table-primary">...</tr>
+<tr class="table-secondary">...</tr>
+<tr class="table-success">...</tr>
+<tr class="table-danger">...</tr>
+<tr class="table-warning">...</tr>
+<tr class="table-info">...</tr>
+<tr class="table-light">...</tr>
+<tr class="table-dark">...</tr>
+
+<!-- On cells (`td` or `th`) -->
+<tr>
+  <td class="table-primary">...</td>
+  <td class="table-secondary">...</td>
+  <td class="table-success">...</td>
+  <td class="table-danger">...</td>
+  <td class="table-warning">...</td>
+  <td class="table-info">...</td>
+  <td class="table-light">...</td>
+  <td class="table-dark">...</td>
+</tr>
+```
+# Accented tables
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Second</th>
+      <th scope="col">Third</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Col 1</td>
+      <td>Col 3</td>
+    </tr>
+  </tbody>
+</table>
+
+```
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Second</th>
+      <th scope="col">Third</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Col 1</td>
+      <td>Col 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+<table class="table table-dark table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Second</th>
+      <th scope="col">Third</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Col 1</td>
+      <td>Col 3</td>
+    </tr>
+  </tbody>
+</table>
+This can also be used with the dark versions and colored versions
+
+```
+<table class="table table-dark table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Second</th>
+      <th scope="col">Third</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Col 1</td>
+      <td>Col 2</td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Col 1</td>
+      <td>Col 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+# Forms
+
+# Overview
+
+<div>
+        <div class="bd-example">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <fieldset class="mb-3">
+            <legend>Radios buttons</legend>
+            <div class="form-check">
+              <input type="radio" name="radios" class="form-check-input" id="exampleRadio1">
+              <label class="form-check-label" for="exampleRadio1">Default radio</label>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="radio" name="radios" class="form-check-input" id="exampleRadio2">
+              <label class="form-check-label" for="exampleRadio2">Another radio</label>
+            </div>
+          </fieldset>
+          <div class="mb-3">
+            <label class="form-label" for="customFile">Upload</label>
+            <input type="file" class="form-control" id="customFile">
+          </div>
+          <div class="mb-3 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked="">
+            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+          </div>
+          <div class="mb-3">
+            <label for="customRange3" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
+      </div>
+
+```
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <fieldset class="mb-3">
+            <legend>Radios buttons</legend>
+            <div class="form-check">
+              <input type="radio" name="radios" class="form-check-input" id="exampleRadio1">
+              <label class="form-check-label" for="exampleRadio1">Default radio</label>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="radio" name="radios" class="form-check-input" id="exampleRadio2">
+              <label class="form-check-label" for="exampleRadio2">Another radio</label>
+            </div>
+          </fieldset>
+          <div class="mb-3">
+            <label class="form-label" for="customFile">Upload</label>
+            <input type="file" class="form-control" id="customFile">
+          </div>
+          <div class="mb-3 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked="">
+            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+          </div>
+          <div class="mb-3">
+            <label for="customRange3" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+```
+# Disabled forms
+<form>
+          <fieldset disabled="" aria-label="Disabled fieldset example">
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">Disabled input</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+            </div>
+            <div class="mb-3">
+              <label for="disabledSelect" class="form-label">Disabled select menu</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Disabled select</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled="">
+                <label class="form-check-label" for="disabledFieldsetCheck">
+                  Can't check this
+                </label>
+              </div>
+            </div>
+            <fieldset class="mb-3">
+              <legend>Disabled radios buttons</legend>
+              <div class="form-check">
+                <input type="radio" name="radios" class="form-check-input" id="disabledRadio1" disabled="">
+                <label class="form-check-label" for="disabledRadio1">Disabled radio</label>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="radio" name="radios" class="form-check-input" id="disabledRadio2" disabled="">
+                <label class="form-check-label" for="disabledRadio2">Another radio</label>
+              </div>
+            </fieldset>
+            <div class="mb-3">
+              <label class="form-label" for="disabledCustomFile">Upload</label>
+              <input type="file" class="form-control" id="disabledCustomFile" disabled="">
+            </div>
+            <div class="mb-3 form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="disabledSwitchCheckChecked" checked="" disabled="">
+              <label class="form-check-label" for="disabledSwitchCheckChecked">Disabled checked switch checkbox input</label>
+            </div>
+            <div class="mb-3">
+              <label for="disabledRange" class="form-label">Disabled range</label>
+              <input type="range" class="form-range" min="0" max="5" step="0.5" id="disabledRange">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
+
+```
+<form>
+          <fieldset disabled="" aria-label="Disabled fieldset example">
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">Disabled input</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+            </div>
+            <div class="mb-3">
+              <label for="disabledSelect" class="form-label">Disabled select menu</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Disabled select</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled="">
+                <label class="form-check-label" for="disabledFieldsetCheck">
+                  Can't check this
+                </label>
+              </div>
+            </div>
+            <fieldset class="mb-3">
+              <legend>Disabled radios buttons</legend>
+              <div class="form-check">
+                <input type="radio" name="radios" class="form-check-input" id="disabledRadio1" disabled="">
+                <label class="form-check-label" for="disabledRadio1">Disabled radio</label>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="radio" name="radios" class="form-check-input" id="disabledRadio2" disabled="">
+                <label class="form-check-label" for="disabledRadio2">Another radio</label>
+              </div>
+            </fieldset>
+            <div class="mb-3">
+              <label class="form-label" for="disabledCustomFile">Upload</label>
+              <input type="file" class="form-control" id="disabledCustomFile" disabled="">
+            </div>
+            <div class="mb-3 form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="disabledSwitchCheckChecked" checked="" disabled="">
+              <label class="form-check-label" for="disabledSwitchCheckChecked">Disabled checked switch checkbox input</label>
+            </div>
+            <div class="mb-3">
+              <label for="disabledRange" class="form-label">Disabled range</label>
+              <input type="range" class="form-range" min="0" max="5" step="0.5" id="disabledRange">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
 ```
 

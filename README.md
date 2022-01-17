@@ -3,19 +3,19 @@ Welcome to the docs! Here you will learn all you need to know about Razor to use
 # Introduction
 
 CSS:<br>
-<div style="display: none;"><link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css">
+<div style="display: none;"><link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css" rel="stylesheet">
 <script src="https://cdn.razorcss.xyz/js/bundle.min.js"></script>
-<link href="https://cdn.razorcss.xyz/icons/style.css"></div>
+<link href="https://cdn.razorcss.xyz/icons/style.css" rel="stylesheet"></div>
 
 ```
-<link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css">
+<link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css" rel="stylesheet">
 ```
 
 <br>
 Icons:<br>
 
 ```
-<link href="https://cdn.razorcss.xyz/icons/style.css">
+<link href="https://cdn.razorcss.xyz/icons/style.css" rel="stylesheet">
 ```
 <br>
 JS:<br>

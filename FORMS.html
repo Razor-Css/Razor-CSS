@@ -1,0 +1,445 @@
+<div style="display: none;"><link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css" rel="stylesheet">
+<script src="https://cdn.razorcss.xyz/js/bundle.min.js"></script>
+<link href="https://cdn.razorcss.xyz/icons/style.css" rel="stylesheet"></div>
+
+<h1 id="forms">Forms</h1>
+<h1 id="overview">Overview</h1>
+<div>
+        <div class="bd-example">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We&#39;ll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <fieldset class="mb-3">
+            <legend>Radios buttons</legend>
+            <div class="form-check">
+              <input type="radio" name="radios" class="form-check-input" id="exampleRadio1">
+              <label class="form-check-label" for="exampleRadio1">Default radio</label>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="radio" name="radios" class="form-check-input" id="exampleRadio2">
+              <label class="form-check-label" for="exampleRadio2">Another radio</label>
+            </div>
+          </fieldset>
+          <div class="mb-3">
+            <label class="form-label" for="customFile">Upload</label>
+            <input type="file" class="form-control" id="customFile">
+          </div>
+          <div class="mb-3 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked="">
+            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+          </div>
+          <div class="mb-3">
+            <label for="customRange3" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
+      </div>
+
+<pre><code>        &lt;form&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+            &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"exampleInputEmail1"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Email</span> address&lt;/label&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"email"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> id=<span class="hljs-string">"exampleInputEmail1"</span> aria-describedby=<span class="hljs-string">"emailHelp"</span>&gt;
+            &lt;div id=<span class="hljs-string">"emailHelp"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-text"</span>&gt;<span class="hljs-type">We</span><span class="hljs-symbol">'ll</span> never share your email <span class="hljs-keyword">with</span> anyone <span class="hljs-keyword">else</span>.&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+            &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"exampleInputPassword1"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Password</span>&lt;/label&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"password"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> id=<span class="hljs-string">"exampleInputPassword1"</span>&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3 form-check"</span>&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-input"</span> id=<span class="hljs-string">"exampleCheck1"</span>&gt;
+            &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"exampleCheck1"</span>&gt;<span class="hljs-type">Check</span> me out&lt;/label&gt;
+          &lt;/div&gt;
+          &lt;fieldset <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+            &lt;legend&gt;<span class="hljs-type">Radios</span> buttons&lt;/legend&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check"</span>&gt;
+              &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"radio"</span> name=<span class="hljs-string">"radios"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-input"</span> id=<span class="hljs-string">"exampleRadio1"</span>&gt;
+              &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"exampleRadio1"</span>&gt;<span class="hljs-type">Default</span> radio&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3 form-check"</span>&gt;
+              &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"radio"</span> name=<span class="hljs-string">"radios"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-input"</span> id=<span class="hljs-string">"exampleRadio2"</span>&gt;
+              &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"exampleRadio2"</span>&gt;<span class="hljs-type">Another</span> radio&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/fieldset&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+            &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"customFile"</span>&gt;<span class="hljs-type">Upload</span>&lt;/label&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"file"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> id=<span class="hljs-string">"customFile"</span>&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3 form-check form-switch"</span>&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-input"</span> <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"checkbox"</span> role=<span class="hljs-string">"switch"</span> id=<span class="hljs-string">"flexSwitchCheckChecked"</span> checked=<span class="hljs-string">""</span>&gt;
+            &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"flexSwitchCheckChecked"</span>&gt;<span class="hljs-type">Checked</span> switch checkbox input&lt;/label&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+            &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"customRange3"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Example</span> range&lt;/label&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"range"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-range"</span> min=<span class="hljs-string">"0"</span> max=<span class="hljs-string">"5"</span> step=<span class="hljs-string">"0.5"</span> id=<span class="hljs-string">"customRange3"</span>&gt;
+          &lt;/div&gt;
+          &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"submit"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"btn btn-primary"</span>&gt;<span class="hljs-type">Submit</span>&lt;/button&gt;
+        &lt;/form&gt;
+</code></pre><h1 id="disabled-forms">Disabled forms</h1>
+<form>
+          <fieldset disabled="" aria-label="Disabled fieldset example">
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">Disabled input</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+            </div>
+            <div class="mb-3">
+              <label for="disabledSelect" class="form-label">Disabled select menu</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Disabled select</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled="">
+                <label class="form-check-label" for="disabledFieldsetCheck">
+                  Can&#39;t check this
+                </label>
+              </div>
+            </div>
+            <fieldset class="mb-3">
+              <legend>Disabled radios buttons</legend>
+              <div class="form-check">
+                <input type="radio" name="radios" class="form-check-input" id="disabledRadio1" disabled="">
+                <label class="form-check-label" for="disabledRadio1">Disabled radio</label>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="radio" name="radios" class="form-check-input" id="disabledRadio2" disabled="">
+                <label class="form-check-label" for="disabledRadio2">Another radio</label>
+              </div>
+            </fieldset>
+            <div class="mb-3">
+              <label class="form-label" for="disabledCustomFile">Upload</label>
+              <input type="file" class="form-control" id="disabledCustomFile" disabled="">
+            </div>
+            <div class="mb-3 form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="disabledSwitchCheckChecked" checked="" disabled="">
+              <label class="form-check-label" for="disabledSwitchCheckChecked">Disabled checked switch checkbox input</label>
+            </div>
+            <div class="mb-3">
+              <label for="disabledRange" class="form-label">Disabled range</label>
+              <input type="range" class="form-range" min="0" max="5" step="0.5" id="disabledRange">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
+
+<pre><code>&lt;form&gt;
+          &lt;fieldset disabled=<span class="hljs-string">""</span> aria-label=<span class="hljs-string">"Disabled fieldset example"</span>&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+              &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"disabledTextInput"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Disabled</span> input&lt;/label&gt;
+              &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> id=<span class="hljs-string">"disabledTextInput"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> placeholder=<span class="hljs-string">"Disabled input"</span>&gt;
+            &lt;/div&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+              &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"disabledSelect"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Disabled</span> select menu&lt;/label&gt;
+              &lt;select id=<span class="hljs-string">"disabledSelect"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-select"</span>&gt;
+                &lt;option&gt;<span class="hljs-type">Disabled</span> select&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+              &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check"</span>&gt;
+                &lt;input <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-input"</span> <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"checkbox"</span> id=<span class="hljs-string">"disabledFieldsetCheck"</span> disabled=<span class="hljs-string">""</span>&gt;
+                &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"disabledFieldsetCheck"</span>&gt;
+                  <span class="hljs-type">Can</span><span class="hljs-symbol">'t</span> check <span class="hljs-keyword">this</span>
+                &lt;/label&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;fieldset <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+              &lt;legend&gt;<span class="hljs-type">Disabled</span> radios buttons&lt;/legend&gt;
+              &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check"</span>&gt;
+                &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"radio"</span> name=<span class="hljs-string">"radios"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-input"</span> id=<span class="hljs-string">"disabledRadio1"</span> disabled=<span class="hljs-string">""</span>&gt;
+                &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"disabledRadio1"</span>&gt;<span class="hljs-type">Disabled</span> radio&lt;/label&gt;
+              &lt;/div&gt;
+              &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3 form-check"</span>&gt;
+                &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"radio"</span> name=<span class="hljs-string">"radios"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-input"</span> id=<span class="hljs-string">"disabledRadio2"</span> disabled=<span class="hljs-string">""</span>&gt;
+                &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"disabledRadio2"</span>&gt;<span class="hljs-type">Another</span> radio&lt;/label&gt;
+              &lt;/div&gt;
+            &lt;/fieldset&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+              &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"disabledCustomFile"</span>&gt;<span class="hljs-type">Upload</span>&lt;/label&gt;
+              &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"file"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> id=<span class="hljs-string">"disabledCustomFile"</span> disabled=<span class="hljs-string">""</span>&gt;
+            &lt;/div&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3 form-check form-switch"</span>&gt;
+              &lt;input <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-input"</span> <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"checkbox"</span> role=<span class="hljs-string">"switch"</span> id=<span class="hljs-string">"disabledSwitchCheckChecked"</span> checked=<span class="hljs-string">""</span> disabled=<span class="hljs-string">""</span>&gt;
+              &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"disabledSwitchCheckChecked"</span>&gt;<span class="hljs-type">Disabled</span> checked switch checkbox input&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"mb-3"</span>&gt;
+              &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"disabledRange"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Disabled</span> range&lt;/label&gt;
+              &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"range"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-range"</span> min=<span class="hljs-string">"0"</span> max=<span class="hljs-string">"5"</span> step=<span class="hljs-string">"0.5"</span> id=<span class="hljs-string">"disabledRange"</span>&gt;
+            &lt;/div&gt;
+            &lt;button <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"submit"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"btn btn-primary"</span>&gt;<span class="hljs-type">Submit</span>&lt;/button&gt;
+          &lt;/fieldset&gt;
+        &lt;/form&gt;
+</code></pre><h1 id="sizing">Sizing</h1>
+<div class="mb-3">
+          <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
+        </div>
+        <div class="mb-3">
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected="">Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <input type="file" class="form-control form-control-lg" aria-label="Large file input example">
+        </div>
+        <div class="mb-3">
+          <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
+        </div>
+        <div class="mb-3">
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected="">Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <input type="file" class="form-control form-control-sm" aria-label="Small file input example">
+        </div>
+
+<pre><code>&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"mb-3"</span>&gt;
+          &lt;input <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-control form-control-lg"</span> type=<span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">".form-control-lg"</span> aria-label=<span class="hljs-string">".form-control-lg example"</span>&gt;
+        &lt;/div&gt;
+        &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"mb-3"</span>&gt;
+          &lt;<span class="hljs-keyword">select</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-select form-select-lg mb-3"</span> aria-label=<span class="hljs-string">".form-select-lg example"</span>&gt;
+            &lt;option selected=<span class="hljs-string">""</span>&gt;Open <span class="hljs-keyword">this</span> <span class="hljs-keyword">select</span> menu&lt;/option&gt;
+            &lt;option <span class="hljs-keyword">value</span>=<span class="hljs-string">"1"</span>&gt;One&lt;/option&gt;
+            &lt;option <span class="hljs-keyword">value</span>=<span class="hljs-string">"2"</span>&gt;Two&lt;/option&gt;
+            &lt;option <span class="hljs-keyword">value</span>=<span class="hljs-string">"3"</span>&gt;Three&lt;/option&gt;
+          &lt;/<span class="hljs-keyword">select</span>&gt;
+        &lt;/div&gt;
+        &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"mb-3"</span>&gt;
+          &lt;input type=<span class="hljs-string">"file"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-control form-control-lg"</span> aria-label=<span class="hljs-string">"Large file input example"</span>&gt;
+        &lt;/div&gt;
+        &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"mb-3"</span>&gt;
+          &lt;input <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-control form-control-sm"</span> type=<span class="hljs-string">"text"</span> placeholder=<span class="hljs-string">".form-control-sm"</span> aria-label=<span class="hljs-string">".form-control-sm example"</span>&gt;
+        &lt;/div&gt;
+        &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"mb-3"</span>&gt;
+          &lt;<span class="hljs-keyword">select</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-select form-select-sm"</span> aria-label=<span class="hljs-string">".form-select-sm example"</span>&gt;
+            &lt;option selected=<span class="hljs-string">""</span>&gt;Open <span class="hljs-keyword">this</span> <span class="hljs-keyword">select</span> menu&lt;/option&gt;
+            &lt;option <span class="hljs-keyword">value</span>=<span class="hljs-string">"1"</span>&gt;One&lt;/option&gt;
+            &lt;option <span class="hljs-keyword">value</span>=<span class="hljs-string">"2"</span>&gt;Two&lt;/option&gt;
+            &lt;option <span class="hljs-keyword">value</span>=<span class="hljs-string">"3"</span>&gt;Three&lt;/option&gt;
+          &lt;/<span class="hljs-keyword">select</span>&gt;
+        &lt;/div&gt;
+        &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"mb-3"</span>&gt;
+          &lt;input type=<span class="hljs-string">"file"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-control form-control-sm"</span> aria-label=<span class="hljs-string">"Small file input example"</span>&gt;
+        &lt;/div&gt;
+</code></pre><h1 id="input-group">Input group</h1>
+<div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">@</span>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+        <label for="basic-url" class="form-label">Your vanity URL</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3"><a href="https://example.com/users/">https://example.com/users/</a></span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text">$</span>
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+          <span class="input-group-text">.00</span>
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">With textarea</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+
+<pre><code>&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group mb-3"</span>&gt;
+          &lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group-text"</span> id=<span class="hljs-string">"basic-addon1"</span>&gt;@&lt;/span&gt;
+          &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> placeholder=<span class="hljs-string">"Username"</span> aria-label=<span class="hljs-string">"Username"</span> aria-describedby=<span class="hljs-string">"basic-addon1"</span>&gt;
+        &lt;/div&gt;
+        &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group mb-3"</span>&gt;
+          &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> placeholder=<span class="hljs-string">"Recipient's username"</span> aria-label=<span class="hljs-string">"Recipient's username"</span> aria-describedby=<span class="hljs-string">"basic-addon2"</span>&gt;
+          &lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group-text"</span> id=<span class="hljs-string">"basic-addon2"</span>&gt;<span class="hljs-meta">@example</span>.com&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"basic-url"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Your</span> vanity <span class="hljs-type">URL</span>&lt;/label&gt;
+        &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group mb-3"</span>&gt;
+          &lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group-text"</span> id=<span class="hljs-string">"basic-addon3"</span>&gt;https:<span class="hljs-comment">//example.com/users/&lt;/span&gt;</span>
+          &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> id=<span class="hljs-string">"basic-url"</span> aria-describedby=<span class="hljs-string">"basic-addon3"</span>&gt;
+        &lt;/div&gt;
+        &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group mb-3"</span>&gt;
+          &lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group-text"</span>&gt;$&lt;/span&gt;
+          &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> aria-label=<span class="hljs-string">"Amount (to the nearest dollar)"</span>&gt;
+          &lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group-text"</span>&gt;<span class="hljs-number">.00</span>&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group"</span>&gt;
+          &lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group-text"</span>&gt;<span class="hljs-type">With</span> textarea&lt;/span&gt;
+          &lt;textarea <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> aria-label=<span class="hljs-string">"With textarea"</span>&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+</code></pre><h1 id="floating-labels">Floating labels</h1>
+<form>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+        </form>
+
+<pre><code>&lt;<span class="hljs-keyword">form</span>&gt;
+          &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-floating mb-3"</span>&gt;
+            &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"email"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-control"</span> id=<span class="hljs-string">"floatingInput"</span> placeholder=<span class="hljs-string">"name@example.com"</span>&gt;
+            &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"floatingInput"</span>&gt;Email address&lt;/<span class="hljs-keyword">label</span>&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-floating"</span>&gt;
+            &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"password"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"form-control"</span> id=<span class="hljs-string">"floatingPassword"</span> placeholder=<span class="hljs-string">"Password"</span>&gt;
+            &lt;<span class="hljs-keyword">label</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"floatingPassword"</span>&gt;Password&lt;/<span class="hljs-keyword">label</span>&gt;
+          &lt;/div&gt;
+        &lt;/<span class="hljs-keyword">form</span>&gt;
+</code></pre><h1 id="validation">Validation</h1>
+<form class="row g-3">
+          <div class="col-md-4">
+            <label for="validationServer01" class="form-label">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required="">
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required="">
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServerUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required="">
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationServer03" class="form-label">City</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" required="">
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationServer04" class="form-label">State</label>
+            <select class="form-select is-invalid" id="validationServer04" required="">
+              <option selected="" disabled="" value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationServer05" class="form-label">Zip</label>
+            <input type="text" class="form-control is-invalid" id="validationServer05" required="">
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required="">
+              <label class="form-check-label" for="invalidCheck3">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+
+<pre><code>&lt;form <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"row g-3"</span>&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"col-md-4"</span>&gt;
+            &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"validationServer01"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">First</span> name&lt;/label&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control is-valid"</span> id=<span class="hljs-string">"validationServer01"</span> value=<span class="hljs-string">"Mark"</span> required=<span class="hljs-string">""</span>&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"valid-feedback"</span>&gt;
+              <span class="hljs-type">Looks</span> good!
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"col-md-4"</span>&gt;
+            &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"validationServer02"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Last</span> name&lt;/label&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control is-valid"</span> id=<span class="hljs-string">"validationServer02"</span> value=<span class="hljs-string">"Otto"</span> required=<span class="hljs-string">""</span>&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"valid-feedback"</span>&gt;
+              <span class="hljs-type">Looks</span> good!
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"col-md-4"</span>&gt;
+            &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"validationServerUsername"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Username</span>&lt;/label&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group has-validation"</span>&gt;
+              &lt;span <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"input-group-text"</span> id=<span class="hljs-string">"inputGroupPrepend3"</span>&gt;@&lt;/span&gt;
+              &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control is-invalid"</span> id=<span class="hljs-string">"validationServerUsername"</span> aria-describedby=<span class="hljs-string">"inputGroupPrepend3"</span> required=<span class="hljs-string">""</span>&gt;
+              &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"invalid-feedback"</span>&gt;
+                <span class="hljs-type">Please</span> choose a username.
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"col-md-6"</span>&gt;
+            &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"validationServer03"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">City</span>&lt;/label&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control is-invalid"</span> id=<span class="hljs-string">"validationServer03"</span> required=<span class="hljs-string">""</span>&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"invalid-feedback"</span>&gt;
+              <span class="hljs-type">Please</span> provide a valid city.
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"col-md-3"</span>&gt;
+            &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"validationServer04"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">State</span>&lt;/label&gt;
+            &lt;select <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-select is-invalid"</span> id=<span class="hljs-string">"validationServer04"</span> required=<span class="hljs-string">""</span>&gt;
+              &lt;option selected=<span class="hljs-string">""</span> disabled=<span class="hljs-string">""</span> value=<span class="hljs-string">""</span>&gt;<span class="hljs-type">Choose</span>...&lt;/option&gt;
+              &lt;option&gt;...&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"invalid-feedback"</span>&gt;
+              <span class="hljs-type">Please</span> select a valid state.
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"col-md-3"</span>&gt;
+            &lt;label <span class="hljs-keyword">for</span>=<span class="hljs-string">"validationServer05"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-label"</span>&gt;<span class="hljs-type">Zip</span>&lt;/label&gt;
+            &lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"text"</span> <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control is-invalid"</span> id=<span class="hljs-string">"validationServer05"</span> required=<span class="hljs-string">""</span>&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"invalid-feedback"</span>&gt;
+              <span class="hljs-type">Please</span> provide a valid zip.
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"col-12"</span>&gt;
+            &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check"</span>&gt;
+              &lt;input <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-input is-invalid"</span> <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"checkbox"</span> value=<span class="hljs-string">""</span> id=<span class="hljs-string">"invalidCheck3"</span> required=<span class="hljs-string">""</span>&gt;
+              &lt;label <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-check-label"</span> <span class="hljs-keyword">for</span>=<span class="hljs-string">"invalidCheck3"</span>&gt;
+                <span class="hljs-type">Agree</span> to terms and conditions
+              &lt;/label&gt;
+              &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"invalid-feedback"</span>&gt;
+                <span class="hljs-type">You</span> must agree before submitting.
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"col-12"</span>&gt;
+            &lt;button <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"btn btn-primary"</span> <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"submit"</span>&gt;<span class="hljs-type">Submit</span> form&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/form&gt;
+</code></pre><nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="/TABLES.html">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="/ACCORDION.html">Next</a></li>
+  </ul>
+</nav>

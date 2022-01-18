@@ -1,0 +1,233 @@
+<div style="display: none;"><link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css" rel="stylesheet">
+<script src="https://cdn.razorcss.xyz/js/bundle.min.js"></script>
+<link href="https://cdn.razorcss.xyz/icons/style.css" rel="stylesheet"></div>
+
+<h1 id="accordion">Accordion</h1>
+<h1 id="example">Example</h1>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item&#39;s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&#39;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item&#39;s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&#39;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item&#39;s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&#39;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"accordionExample"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-item"</span>&gt;
+    &lt;h2 <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-header"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"headingOne"</span>&gt;
+      &lt;button <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-button"</span> type=<span class="hljs-string">"button"</span> data-bs-toggle=<span class="hljs-string">"collapse"</span> data-bs-target=<span class="hljs-string">"#collapseOne"</span> aria-expanded=<span class="hljs-string">"true"</span> aria-controls=<span class="hljs-string">"collapseOne"</span>&gt;
+        Accordion Item <span class="hljs-comment">#1</span>
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"collapseOne"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-collapse collapse show"</span> aria-labelledby=<span class="hljs-string">"headingOne"</span> data-bs-parent=<span class="hljs-string">"#accordionExample"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-body"</span>&gt;
+        &lt;strong&gt;This <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">first</span> <span class="hljs-built_in">item</span>'s accordion body.&lt;/strong&gt; It <span class="hljs-keyword">is</span> shown <span class="hljs-keyword">by</span> default, <span class="hljs-keyword">until</span> <span class="hljs-keyword">the</span> collapse plugin adds <span class="hljs-keyword">the</span> appropriate classes <span class="hljs-keyword">that</span> we use <span class="hljs-keyword">to</span> style each element. These classes control <span class="hljs-keyword">the</span> overall appearance, <span class="hljs-keyword">as</span> well <span class="hljs-keyword">as</span> <span class="hljs-keyword">the</span> showing <span class="hljs-keyword">and</span> hiding via CSS transitions. You can modify any <span class="hljs-keyword">of</span> this <span class="hljs-keyword">with</span> custom CSS <span class="hljs-keyword">or</span> overriding our default variables. It's also worth noting <span class="hljs-keyword">that</span> just <span class="hljs-keyword">about</span> any HTML can go within <span class="hljs-keyword">the</span> &lt;code&gt;.accordion-body&lt;/code&gt;, though <span class="hljs-keyword">the</span> transition <span class="hljs-keyword">does</span> limit overflow.
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-item"</span>&gt;
+    &lt;h2 <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-header"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"headingTwo"</span>&gt;
+      &lt;button <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-button collapsed"</span> type=<span class="hljs-string">"button"</span> data-bs-toggle=<span class="hljs-string">"collapse"</span> data-bs-target=<span class="hljs-string">"#collapseTwo"</span> aria-expanded=<span class="hljs-string">"false"</span> aria-controls=<span class="hljs-string">"collapseTwo"</span>&gt;
+        Accordion Item <span class="hljs-comment">#2</span>
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"collapseTwo"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-collapse collapse"</span> aria-labelledby=<span class="hljs-string">"headingTwo"</span> data-bs-parent=<span class="hljs-string">"#accordionExample"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-body"</span>&gt;
+        &lt;strong&gt;This <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">second</span> <span class="hljs-built_in">item</span>'s accordion body.&lt;/strong&gt; It <span class="hljs-keyword">is</span> hidden <span class="hljs-keyword">by</span> default, <span class="hljs-keyword">until</span> <span class="hljs-keyword">the</span> collapse plugin adds <span class="hljs-keyword">the</span> appropriate classes <span class="hljs-keyword">that</span> we use <span class="hljs-keyword">to</span> style each element. These classes control <span class="hljs-keyword">the</span> overall appearance, <span class="hljs-keyword">as</span> well <span class="hljs-keyword">as</span> <span class="hljs-keyword">the</span> showing <span class="hljs-keyword">and</span> hiding via CSS transitions. You can modify any <span class="hljs-keyword">of</span> this <span class="hljs-keyword">with</span> custom CSS <span class="hljs-keyword">or</span> overriding our default variables. It's also worth noting <span class="hljs-keyword">that</span> just <span class="hljs-keyword">about</span> any HTML can go within <span class="hljs-keyword">the</span> &lt;code&gt;.accordion-body&lt;/code&gt;, though <span class="hljs-keyword">the</span> transition <span class="hljs-keyword">does</span> limit overflow.
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-item"</span>&gt;
+    &lt;h2 <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-header"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"headingThree"</span>&gt;
+      &lt;button <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-button collapsed"</span> type=<span class="hljs-string">"button"</span> data-bs-toggle=<span class="hljs-string">"collapse"</span> data-bs-target=<span class="hljs-string">"#collapseThree"</span> aria-expanded=<span class="hljs-string">"false"</span> aria-controls=<span class="hljs-string">"collapseThree"</span>&gt;
+        Accordion Item <span class="hljs-comment">#3</span>
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"collapseThree"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-collapse collapse"</span> aria-labelledby=<span class="hljs-string">"headingThree"</span> data-bs-parent=<span class="hljs-string">"#accordionExample"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-body"</span>&gt;
+        &lt;strong&gt;This <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">third</span> <span class="hljs-built_in">item</span>'s accordion body.&lt;/strong&gt; It <span class="hljs-keyword">is</span> hidden <span class="hljs-keyword">by</span> default, <span class="hljs-keyword">until</span> <span class="hljs-keyword">the</span> collapse plugin adds <span class="hljs-keyword">the</span> appropriate classes <span class="hljs-keyword">that</span> we use <span class="hljs-keyword">to</span> style each element. These classes control <span class="hljs-keyword">the</span> overall appearance, <span class="hljs-keyword">as</span> well <span class="hljs-keyword">as</span> <span class="hljs-keyword">the</span> showing <span class="hljs-keyword">and</span> hiding via CSS transitions. You can modify any <span class="hljs-keyword">of</span> this <span class="hljs-keyword">with</span> custom CSS <span class="hljs-keyword">or</span> overriding our default variables. It's also worth noting <span class="hljs-keyword">that</span> just <span class="hljs-keyword">about</span> any HTML can go within <span class="hljs-keyword">the</span> &lt;code&gt;.accordion-body&lt;/code&gt;, though <span class="hljs-keyword">the</span> transition <span class="hljs-keyword">does</span> limit overflow.
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="flush">Flush</h1>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item&#39;s accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item&#39;s accordion body. Let&#39;s imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item&#39;s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion accordion-flush"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"accordionFlushExample"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-item"</span>&gt;
+    &lt;h2 <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-header"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"flush-headingOne"</span>&gt;
+      &lt;button <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-button collapsed"</span> type=<span class="hljs-string">"button"</span> data-bs-toggle=<span class="hljs-string">"collapse"</span> data-bs-target=<span class="hljs-string">"#flush-collapseOne"</span> aria-expanded=<span class="hljs-string">"false"</span> aria-controls=<span class="hljs-string">"flush-collapseOne"</span>&gt;
+        Accordion Item <span class="hljs-comment">#1</span>
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"flush-collapseOne"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-collapse collapse"</span> aria-labelledby=<span class="hljs-string">"flush-headingOne"</span> data-bs-parent=<span class="hljs-string">"#accordionFlushExample"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-body"</span>&gt;Placeholder content <span class="hljs-keyword">for</span> this accordion, which <span class="hljs-keyword">is</span> intended <span class="hljs-keyword">to</span> demonstrate <span class="hljs-keyword">the</span> &lt;code&gt;.accordion-flush&lt;/code&gt; <span class="hljs-built_in">class</span>. This <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">first</span> <span class="hljs-built_in">item</span>'s accordion body.&lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-item"</span>&gt;
+    &lt;h2 <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-header"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"flush-headingTwo"</span>&gt;
+      &lt;button <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-button collapsed"</span> type=<span class="hljs-string">"button"</span> data-bs-toggle=<span class="hljs-string">"collapse"</span> data-bs-target=<span class="hljs-string">"#flush-collapseTwo"</span> aria-expanded=<span class="hljs-string">"false"</span> aria-controls=<span class="hljs-string">"flush-collapseTwo"</span>&gt;
+        Accordion Item <span class="hljs-comment">#2</span>
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"flush-collapseTwo"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-collapse collapse"</span> aria-labelledby=<span class="hljs-string">"flush-headingTwo"</span> data-bs-parent=<span class="hljs-string">"#accordionFlushExample"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-body"</span>&gt;Placeholder content <span class="hljs-keyword">for</span> this accordion, which <span class="hljs-keyword">is</span> intended <span class="hljs-keyword">to</span> demonstrate <span class="hljs-keyword">the</span> &lt;code&gt;.accordion-flush&lt;/code&gt; <span class="hljs-built_in">class</span>. This <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">second</span> <span class="hljs-built_in">item</span>'s accordion body. Let's imagine this being filled <span class="hljs-keyword">with</span> <span class="hljs-keyword">some</span> actual content.&lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-item"</span>&gt;
+    &lt;h2 <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-header"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"flush-headingThree"</span>&gt;
+      &lt;button <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-button collapsed"</span> type=<span class="hljs-string">"button"</span> data-bs-toggle=<span class="hljs-string">"collapse"</span> data-bs-target=<span class="hljs-string">"#flush-collapseThree"</span> aria-expanded=<span class="hljs-string">"false"</span> aria-controls=<span class="hljs-string">"flush-collapseThree"</span>&gt;
+        Accordion Item <span class="hljs-comment">#3</span>
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"flush-collapseThree"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-collapse collapse"</span> aria-labelledby=<span class="hljs-string">"flush-headingThree"</span> data-bs-parent=<span class="hljs-string">"#accordionFlushExample"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-body"</span>&gt;Placeholder content <span class="hljs-keyword">for</span> this accordion, which <span class="hljs-keyword">is</span> intended <span class="hljs-keyword">to</span> demonstrate <span class="hljs-keyword">the</span> &lt;code&gt;.accordion-flush&lt;/code&gt; <span class="hljs-built_in">class</span>. This <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">third</span> <span class="hljs-built_in">item</span>'s accordion body. Nothing more exciting happening here <span class="hljs-keyword">in</span> terms <span class="hljs-keyword">of</span> content, <span class="hljs-keyword">but</span> just filling up <span class="hljs-keyword">the</span> <span class="hljs-literal">space</span> <span class="hljs-keyword">to</span> make <span class="hljs-keyword">it</span> look, <span class="hljs-keyword">at</span> least <span class="hljs-keyword">at</span> <span class="hljs-keyword">first</span> glance, a bit more representative <span class="hljs-keyword">of</span> how this would look <span class="hljs-keyword">in</span> a <span class="hljs-built_in">real</span>-world <span class="hljs-built_in">application</span>.&lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="always-open">Always open</h1>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>This is the first item&#39;s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&#39;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>This is the second item&#39;s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&#39;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>This is the third item&#39;s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&#39;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"accordionPanelsStayOpenExample"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-item"</span>&gt;
+    &lt;h2 <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-header"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"panelsStayOpen-headingOne"</span>&gt;
+      &lt;button <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-button"</span> type=<span class="hljs-string">"button"</span> data-bs-toggle=<span class="hljs-string">"collapse"</span> data-bs-target=<span class="hljs-string">"#panelsStayOpen-collapseOne"</span> aria-expanded=<span class="hljs-string">"true"</span> aria-controls=<span class="hljs-string">"panelsStayOpen-collapseOne"</span>&gt;
+        Accordion Item <span class="hljs-comment">#1</span>
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"panelsStayOpen-collapseOne"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-collapse collapse show"</span> aria-labelledby=<span class="hljs-string">"panelsStayOpen-headingOne"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-body"</span>&gt;
+        &lt;strong&gt;This <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">first</span> <span class="hljs-built_in">item</span>'s accordion body.&lt;/strong&gt; It <span class="hljs-keyword">is</span> shown <span class="hljs-keyword">by</span> default, <span class="hljs-keyword">until</span> <span class="hljs-keyword">the</span> collapse plugin adds <span class="hljs-keyword">the</span> appropriate classes <span class="hljs-keyword">that</span> we use <span class="hljs-keyword">to</span> style each element. These classes control <span class="hljs-keyword">the</span> overall appearance, <span class="hljs-keyword">as</span> well <span class="hljs-keyword">as</span> <span class="hljs-keyword">the</span> showing <span class="hljs-keyword">and</span> hiding via CSS transitions. You can modify any <span class="hljs-keyword">of</span> this <span class="hljs-keyword">with</span> custom CSS <span class="hljs-keyword">or</span> overriding our default variables. It's also worth noting <span class="hljs-keyword">that</span> just <span class="hljs-keyword">about</span> any HTML can go within <span class="hljs-keyword">the</span> &lt;code&gt;.accordion-body&lt;/code&gt;, though <span class="hljs-keyword">the</span> transition <span class="hljs-keyword">does</span> limit overflow.
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-item"</span>&gt;
+    &lt;h2 <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-header"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"panelsStayOpen-headingTwo"</span>&gt;
+      &lt;button <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-button collapsed"</span> type=<span class="hljs-string">"button"</span> data-bs-toggle=<span class="hljs-string">"collapse"</span> data-bs-target=<span class="hljs-string">"#panelsStayOpen-collapseTwo"</span> aria-expanded=<span class="hljs-string">"false"</span> aria-controls=<span class="hljs-string">"panelsStayOpen-collapseTwo"</span>&gt;
+        Accordion Item <span class="hljs-comment">#2</span>
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"panelsStayOpen-collapseTwo"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-collapse collapse"</span> aria-labelledby=<span class="hljs-string">"panelsStayOpen-headingTwo"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-body"</span>&gt;
+        &lt;strong&gt;This <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">second</span> <span class="hljs-built_in">item</span>'s accordion body.&lt;/strong&gt; It <span class="hljs-keyword">is</span> hidden <span class="hljs-keyword">by</span> default, <span class="hljs-keyword">until</span> <span class="hljs-keyword">the</span> collapse plugin adds <span class="hljs-keyword">the</span> appropriate classes <span class="hljs-keyword">that</span> we use <span class="hljs-keyword">to</span> style each element. These classes control <span class="hljs-keyword">the</span> overall appearance, <span class="hljs-keyword">as</span> well <span class="hljs-keyword">as</span> <span class="hljs-keyword">the</span> showing <span class="hljs-keyword">and</span> hiding via CSS transitions. You can modify any <span class="hljs-keyword">of</span> this <span class="hljs-keyword">with</span> custom CSS <span class="hljs-keyword">or</span> overriding our default variables. It's also worth noting <span class="hljs-keyword">that</span> just <span class="hljs-keyword">about</span> any HTML can go within <span class="hljs-keyword">the</span> &lt;code&gt;.accordion-body&lt;/code&gt;, though <span class="hljs-keyword">the</span> transition <span class="hljs-keyword">does</span> limit overflow.
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-item"</span>&gt;
+    &lt;h2 <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-header"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"panelsStayOpen-headingThree"</span>&gt;
+      &lt;button <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-button collapsed"</span> type=<span class="hljs-string">"button"</span> data-bs-toggle=<span class="hljs-string">"collapse"</span> data-bs-target=<span class="hljs-string">"#panelsStayOpen-collapseThree"</span> aria-expanded=<span class="hljs-string">"false"</span> aria-controls=<span class="hljs-string">"panelsStayOpen-collapseThree"</span>&gt;
+        Accordion Item <span class="hljs-comment">#3</span>
+      &lt;/button&gt;
+    &lt;/h2&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"panelsStayOpen-collapseThree"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-collapse collapse"</span> aria-labelledby=<span class="hljs-string">"panelsStayOpen-headingThree"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"accordion-body"</span>&gt;
+        &lt;strong&gt;This <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">third</span> <span class="hljs-built_in">item</span>'s accordion body.&lt;/strong&gt; It <span class="hljs-keyword">is</span> hidden <span class="hljs-keyword">by</span> default, <span class="hljs-keyword">until</span> <span class="hljs-keyword">the</span> collapse plugin adds <span class="hljs-keyword">the</span> appropriate classes <span class="hljs-keyword">that</span> we use <span class="hljs-keyword">to</span> style each element. These classes control <span class="hljs-keyword">the</span> overall appearance, <span class="hljs-keyword">as</span> well <span class="hljs-keyword">as</span> <span class="hljs-keyword">the</span> showing <span class="hljs-keyword">and</span> hiding via CSS transitions. You can modify any <span class="hljs-keyword">of</span> this <span class="hljs-keyword">with</span> custom CSS <span class="hljs-keyword">or</span> overriding our default variables. It's also worth noting <span class="hljs-keyword">that</span> just <span class="hljs-keyword">about</span> any HTML can go within <span class="hljs-keyword">the</span> &lt;code&gt;.accordion-body&lt;/code&gt;, though <span class="hljs-keyword">the</span> transition <span class="hljs-keyword">does</span> limit overflow.
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="/FROMS.html">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="/ALERTS.html">Next</a></li>
+  </ul>
+</nav>

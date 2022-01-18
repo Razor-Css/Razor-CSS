@@ -1,0 +1,145 @@
+<div style="display: none;"><link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css" rel="stylesheet">
+<script src="https://cdn.razorcss.xyz/js/bundle.min.js"></script>
+<link href="https://cdn.razorcss.xyz/icons/style.css" rel="stylesheet"></div>
+
+<h1 id="headings">Headings</h1>
+<h1>h1. Razor CSS heading</h1>
+<h2>h2. Razor CSS heading</h2>
+<h3>h3. Razor CSS heading</h3>
+<h4>h4. Razor CSS heading</h4>
+<h5>h5. Razor CSS heading</h5>
+<h6>h6. Razor CSS heading</h6>
+
+<code>&lt;h1&gt;h1. Razor CSS heading&lt;/h1&gt;
+&lt;h2&gt;h2. Razor CSS heading&lt;/h2&gt;
+&lt;h3&gt;h3. Razor CSS heading&lt;/h3&gt;
+&lt;h4&gt;h4. Razor CSS heading&lt;/h4&gt;
+&lt;h5&gt;h5. Razor CSS heading&lt;/h5&gt;
+&lt;h6&gt;h6. Razor CSS heading&lt;/h6&gt;</code>
+
+# Customizing headings
+
+<h3>
+  Fancy display heading
+  <small class="text-muted">With faded secondary text</small>
+</h3>
+
+<code>&lt;h3&gt;
+  Fancy display heading
+  &lt;small class=&quot;text-muted&quot;&gt;With faded secondary text&lt;/small&gt;
+&lt;/h3&gt;</code>
+
+# Display headings
+
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<h1 class="display-5">Display 5</h1>
+<h1 class="display-6">Display 6</h1>
+
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-1"</span>&gt;</span>Display 1<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-2"</span>&gt;</span>Display 2<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-3"</span>&gt;</span>Display 3<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-4"</span>&gt;</span>Display 4<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-5"</span>&gt;</span>Display 5<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"display-6"</span>&gt;</span>Display 6<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+</code></pre><h1 id="lead">Lead</h1>
+<p class="lead">
+  This is a lead paragraph. It stands out from regular paragraphs.
+</p>
+
+<pre><code>&lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"lead"</span>&gt;
+  This <span class="hljs-keyword">is</span> a lead <span class="hljs-built_in">paragraph</span>. It stands out <span class="hljs-keyword">from</span> regular <span class="hljs-built_in">paragraphs</span>.
+&lt;/p&gt;
+</code></pre><h1 id="inline-text-elements">Inline text elements</h1>
+<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+<p><del>This line of text is meant to be treated as deleted text.</del></p>
+<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+<p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+<p><u>This line of text will render as underlined.</u></p>
+<p><small>This line of text is meant to be treated as fine print.</small></p>
+<p><strong>This line rendered as bold text.</strong></p>
+<p><em>This line rendered as italicized text.</em></p>
+
+<pre><code><span class="hljs-symbol">&lt;p&gt;</span>You can use the <span class="hljs-keyword">mark</span> <span class="hljs-keyword">tag</span> <span class="hljs-keyword">to</span> <span class="hljs-symbol">&lt;mark&gt;</span><span class="hljs-keyword">highlight</span>&lt;/<span class="hljs-keyword">mark</span>&gt; text.&lt;/<span class="hljs-keyword">p</span>&gt;
+<span class="hljs-symbol">&lt;p&gt;</span><span class="hljs-symbol">&lt;del&gt;</span>This <span class="hljs-built_in">line</span> of text <span class="hljs-keyword">is</span> meant <span class="hljs-keyword">to</span> <span class="hljs-keyword">be</span> treated <span class="hljs-keyword">as</span> deleted text.&lt;/del&gt;&lt;/<span class="hljs-keyword">p</span>&gt;
+<span class="hljs-symbol">&lt;p&gt;</span><span class="hljs-symbol">&lt;s&gt;</span>This <span class="hljs-built_in">line</span> of text <span class="hljs-keyword">is</span> meant <span class="hljs-keyword">to</span> <span class="hljs-keyword">be</span> treated <span class="hljs-keyword">as</span> <span class="hljs-keyword">no</span> longer accurate.&lt;/s&gt;&lt;/<span class="hljs-keyword">p</span>&gt;
+<span class="hljs-symbol">&lt;p&gt;</span><span class="hljs-symbol">&lt;ins&gt;</span>This <span class="hljs-built_in">line</span> of text <span class="hljs-keyword">is</span> meant <span class="hljs-keyword">to</span> <span class="hljs-keyword">be</span> treated <span class="hljs-keyword">as</span> <span class="hljs-keyword">an</span> addition <span class="hljs-keyword">to</span> the document.&lt;/ins&gt;&lt;/<span class="hljs-keyword">p</span>&gt;
+<span class="hljs-symbol">&lt;p&gt;</span><span class="hljs-symbol">&lt;u&gt;</span>This <span class="hljs-built_in">line</span> of text will render <span class="hljs-keyword">as</span> underlined.&lt;/<span class="hljs-keyword">u</span>&gt;&lt;/<span class="hljs-keyword">p</span>&gt;
+<span class="hljs-symbol">&lt;p&gt;</span><span class="hljs-symbol">&lt;small&gt;</span>This <span class="hljs-built_in">line</span> of text <span class="hljs-keyword">is</span> meant <span class="hljs-keyword">to</span> <span class="hljs-keyword">be</span> treated <span class="hljs-keyword">as</span> fine <span class="hljs-keyword">print</span>.&lt;/small&gt;&lt;/<span class="hljs-keyword">p</span>&gt;
+<span class="hljs-symbol">&lt;p&gt;</span><span class="hljs-symbol">&lt;strong&gt;</span>This <span class="hljs-built_in">line</span> rendered <span class="hljs-keyword">as</span> bold text.&lt;/strong&gt;&lt;/<span class="hljs-keyword">p</span>&gt;
+<span class="hljs-symbol">&lt;p&gt;</span><span class="hljs-symbol">&lt;em&gt;</span>This <span class="hljs-built_in">line</span> rendered <span class="hljs-keyword">as</span> italicized text.&lt;/<span class="hljs-keyword">em</span>&gt;&lt;/<span class="hljs-keyword">p</span>&gt;
+</code></pre><h1 id="abbreviations">Abbreviations</h1>
+<p><abbr title="attribute">attr</abbr></p>
+<p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+
+<pre><code>&lt;p&gt;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">abbr</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"attribute"</span>&gt;</span>attr<span class="hljs-tag">&lt;/<span class="hljs-name">abbr</span>&gt;</span></span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span>
+&lt;p&gt;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">abbr</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"HyperText Markup Language"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"initialism"</span>&gt;</span>HTML<span class="hljs-tag">&lt;/<span class="hljs-name">abbr</span>&gt;</span></span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span>
+</code></pre><h1 id="blockquotes">Blockquotes</h1>
+<blockquote class="blockquote">
+  <p>A well-known quote, contained in a blockquote element.</p>
+</blockquote>
+
+<pre><code>&lt;<span class="hljs-selector-tag">blockquote</span> class=<span class="hljs-string">"blockquote"</span>&gt;
+  &lt;p&gt;A well-known <span class="hljs-selector-tag">quote</span>, contained <span class="hljs-keyword">in</span> <span class="hljs-selector-tag">a</span> <span class="hljs-selector-tag">blockquote</span> element.&lt;/p&gt;
+&lt;/blockquote&gt;
+</code></pre><h1 id="naming-a-source">Naming a source</h1>
+<figure>
+  <blockquote class="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
+
+<pre><code>&lt;figure&gt;
+  &lt;<span class="hljs-selector-tag">blockquote</span> class=<span class="hljs-string">"blockquote"</span>&gt;
+    &lt;p&gt;A well-known <span class="hljs-selector-tag">quote</span>, contained <span class="hljs-keyword">in</span> <span class="hljs-selector-tag">a</span> <span class="hljs-selector-tag">blockquote</span> element.&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;<span class="hljs-selector-tag">figcaption</span> class=<span class="hljs-string">"blockquote-footer"</span>&gt;
+    Someone famous <span class="hljs-keyword">in</span> &lt;<span class="hljs-selector-tag">cite</span> title=<span class="hljs-string">"Source Title"</span>&gt;Source Title&lt;/cite&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></pre><h1 id="alignment">Alignment</h1>
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
+
+<pre><code>&lt;<span class="hljs-selector-tag">figure</span> class=<span class="hljs-string">"text-center"</span>&gt;
+  &lt;<span class="hljs-selector-tag">blockquote</span> class=<span class="hljs-string">"blockquote"</span>&gt;
+    &lt;p&gt;A well-known <span class="hljs-selector-tag">quote</span>, contained <span class="hljs-keyword">in</span> <span class="hljs-selector-tag">a</span> <span class="hljs-selector-tag">blockquote</span> element.&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;<span class="hljs-selector-tag">figcaption</span> class=<span class="hljs-string">"blockquote-footer"</span>&gt;
+    Someone famous <span class="hljs-keyword">in</span> &lt;<span class="hljs-selector-tag">cite</span> title=<span class="hljs-string">"Source Title"</span>&gt;Source Title&lt;/cite&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></pre><figure class="text-end">
+  <blockquote class="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
+
+<pre><code>&lt;<span class="hljs-selector-tag">figure</span> class=<span class="hljs-string">"text-end"</span>&gt;
+  &lt;<span class="hljs-selector-tag">blockquote</span> class=<span class="hljs-string">"blockquote"</span>&gt;
+    &lt;p&gt;A well-known <span class="hljs-selector-tag">quote</span>, contained <span class="hljs-keyword">in</span> <span class="hljs-selector-tag">a</span> <span class="hljs-selector-tag">blockquote</span> element.&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;<span class="hljs-selector-tag">figcaption</span> class=<span class="hljs-string">"blockquote-footer"</span>&gt;
+    Someone famous <span class="hljs-keyword">in</span> &lt;<span class="hljs-selector-tag">cite</span> title=<span class="hljs-string">"Source Title"</span>&gt;Source Title&lt;/cite&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></pre><nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="/INTRO.html">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="/LISTS.html">Next</a></li>
+  </ul>
+</nav>

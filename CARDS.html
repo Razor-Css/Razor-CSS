@@ -1,0 +1,1179 @@
+<div style="display: none;"><link href="https://cdn.razorcss.xyz/css/razor-css-1.1.min.css" rel="stylesheet">
+<script src="https://cdn.razorcss.xyz/js/bundle.min.js"></script>
+<link href="https://cdn.razorcss.xyz/icons/style.css" rel="stylesheet"></div>
+
+<h1 id="cards">Cards</h1>
+<h1 id="example">Example</h1>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span> style=<span class="hljs-string">"width: 18rem;"</span>&gt;
+  &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Go somewhere&lt;/a&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h2>Content types</h2>
+
+<h1 id="body">Body</h1>
+<div class="card">
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    This <span class="hljs-keyword">is</span> <span class="hljs-keyword">some</span> <span class="hljs-built_in">text</span> within a card body.
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="titles-text-and-links">Titles, text, and links</h1>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span> style=<span class="hljs-string">"width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+    &lt;h6 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-subtitle mb-2 text-muted"</span>&gt;Card subtitle&lt;/h6&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-link"</span>&gt;Card link&lt;/a&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-link"</span>&gt;Another link&lt;/a&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="images">Images</h1>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span> style=<span class="hljs-string">"width: 18rem;"</span>&gt;
+  &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="list-groups">List groups</h1>
+<div class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span> style=<span class="hljs-string">"width: 18rem;"</span>&gt;
+  &lt;ul <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group list-group-flush"</span>&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;An <span class="hljs-built_in">item</span>&lt;/li&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;A <span class="hljs-keyword">second</span> <span class="hljs-built_in">item</span>&lt;/li&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;A <span class="hljs-keyword">third</span> <span class="hljs-built_in">item</span>&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><div class="card" style="width: 18rem;">
+  <div class="card-header">
+    Featured
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span> style=<span class="hljs-string">"width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;
+    Featured
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;ul <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group list-group-flush"</span>&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;An <span class="hljs-built_in">item</span>&lt;/li&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;A <span class="hljs-keyword">second</span> <span class="hljs-built_in">item</span>&lt;/li&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;A <span class="hljs-keyword">third</span> <span class="hljs-built_in">item</span>&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><div class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+  <div class="card-footer">
+    Card footer
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span> style=<span class="hljs-string">"width: 18rem;"</span>&gt;
+  &lt;ul <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group list-group-flush"</span>&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;An <span class="hljs-built_in">item</span>&lt;/li&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;A <span class="hljs-keyword">second</span> <span class="hljs-built_in">item</span>&lt;/li&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;A <span class="hljs-keyword">third</span> <span class="hljs-built_in">item</span>&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-footer"</span>&gt;
+    Card footer
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="kitchen-sink">Kitchen sink</h1>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span> style=<span class="hljs-string">"width: 18rem;"</span>&gt;
+  &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;ul <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group list-group-flush"</span>&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;An <span class="hljs-built_in">item</span>&lt;/li&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;A <span class="hljs-keyword">second</span> <span class="hljs-built_in">item</span>&lt;/li&gt;
+    &lt;li <span class="hljs-built_in">class</span>=<span class="hljs-string">"list-group-item"</span>&gt;A <span class="hljs-keyword">third</span> <span class="hljs-built_in">item</span>&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-link"</span>&gt;Card link&lt;/a&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-link"</span>&gt;Another link&lt;/a&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="header-and-footer">Header and footer</h1>
+<div class="card">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;
+    Featured
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Special title treatment&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;With supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Go somewhere&lt;/a&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><div class="card">
+  <h5 class="card-header">Featured</h5>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+  &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Featured&lt;/h5&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Special title treatment&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;With supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Go somewhere&lt;/a&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><div class="card">
+  <div class="card-header">
+    Quote
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>A well-known quote, contained in a blockquote element.</p>
+      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-selector-tag">div</span> class=<span class="hljs-string">"card"</span>&gt;
+  &lt;<span class="hljs-selector-tag">div</span> class=<span class="hljs-string">"card-header"</span>&gt;
+    Quote
+  &lt;/div&gt;
+  &lt;<span class="hljs-selector-tag">div</span> class=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;<span class="hljs-selector-tag">blockquote</span> class=<span class="hljs-string">"blockquote mb-0"</span>&gt;
+      &lt;p&gt;A well-known <span class="hljs-selector-tag">quote</span>, contained <span class="hljs-keyword">in</span> <span class="hljs-selector-tag">a</span> <span class="hljs-selector-tag">blockquote</span> element.&lt;/p&gt;
+      &lt;<span class="hljs-selector-tag">footer</span> class=<span class="hljs-string">"blockquote-footer"</span>&gt;Someone famous <span class="hljs-keyword">in</span> &lt;<span class="hljs-selector-tag">cite</span> title=<span class="hljs-string">"Source Title"</span>&gt;Source Title&lt;/cite&gt;&lt;/footer&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><div class="card text-center">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card text-center"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;
+    Featured
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Special title treatment&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;With supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Go somewhere&lt;/a&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-footer text-muted"</span>&gt;
+    <span class="hljs-number">2</span> days ago
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h2>Sizing</h2>
+
+<h1 id="using-grid-markup">Using grid markup</h1>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"row"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col-sm-6"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Special title treatment&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;With supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+        &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Go somewhere&lt;/a&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col-sm-6"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Special title treatment&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;With supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+        &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Go somewhere&lt;/a&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="using-utilities">Using utilities</h1>
+<div class="card w-75">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Button</a>
+  </div>
+</div>
+
+<div class="card w-50">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Button</a>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card w-75"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;With supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Button&lt;/a&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card w-50"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;With supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Button&lt;/a&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="navigation">Navigation</h1>
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="true" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<pre><code>&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"card text-center"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"card-header"</span>&gt;
+    &lt;ul <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav nav-tabs card-header-tabs"</span>&gt;
+      &lt;li <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-item"</span>&gt;
+        &lt;a <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-link active"</span> aria-current=<span class="hljs-string">"true"</span> href=<span class="hljs-string">"#"</span>&gt;Active&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-item"</span>&gt;
+        &lt;a <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-link"</span> href=<span class="hljs-string">"#"</span>&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-item"</span>&gt;
+        &lt;a <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-link disabled"</span>&gt;Disabled&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-keyword">class</span>=<span class="hljs-string">"card-title"</span>&gt;Special title treatment&lt;/h5&gt;
+    &lt;p <span class="hljs-keyword">class</span>=<span class="hljs-string">"card-text"</span>&gt;With supporting text below <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> to additional content.&lt;/p&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-pills card-header-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<pre><code>&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"card text-center"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"card-header"</span>&gt;
+    &lt;ul <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav nav-pills card-header-pills"</span>&gt;
+      &lt;li <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-item"</span>&gt;
+        &lt;a <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-link active"</span> href=<span class="hljs-string">"#"</span>&gt;Active&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-item"</span>&gt;
+        &lt;a <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-link"</span> href=<span class="hljs-string">"#"</span>&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-item"</span>&gt;
+        &lt;a <span class="hljs-keyword">class</span>=<span class="hljs-string">"nav-link disabled"</span>&gt;Disabled&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-keyword">class</span>=<span class="hljs-string">"card-title"</span>&gt;Special title treatment&lt;/h5&gt;
+    &lt;p <span class="hljs-keyword">class</span>=<span class="hljs-string">"card-text"</span>&gt;With supporting text below <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> to additional content.&lt;/p&gt;
+    &lt;a href=<span class="hljs-string">"#"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2>Images</h2>
+
+<h1 id="image-caps">Image caps</h1>
+<div class="card mb-3">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+  <img src="..." class="card-img-bottom" alt="...">
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card mb-3"</span>&gt;
+  &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;&lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;&lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-bottom"</span> alt=<span class="hljs-string">"..."</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="image-overlays">Image overlays</h1>
+<div class="card bg-dark text-white">
+  <img src="..." class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card bg-dark text-white"</span>&gt;
+  &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img"</span> alt=<span class="hljs-string">"..."</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-overlay"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="horizontal">Horizontal</h1>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card mb-3"</span> style=<span class="hljs-string">"max-width: 540px;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"row g-0"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col-md-4"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"img-fluid rounded-start"</span> alt=<span class="hljs-string">"..."</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col-md-8"</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;&lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h2>Card styles</h2>
+
+<h1 id="background-and-color">Background and color</h1>
+<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Primary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Secondary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Danger card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Warning card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Info card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Light card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Dark card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card text-white bg-primary mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Primary card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card text-white bg-secondary mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Secondary card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card text-white bg-success mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Success card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card text-white bg-danger mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Danger card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card text-dark bg-warning mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Warning card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card text-dark bg-info mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Info card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card text-dark bg-light mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Light card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card text-white bg-dark mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Dark card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="border">Border</h1>
+<div class="card border-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title">Primary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card border-secondary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body text-secondary">
+    <h5 class="card-title">Secondary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body text-success">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card border-danger mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body text-danger">
+    <h5 class="card-title">Danger card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card border-warning mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Warning card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card border-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Info card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card border-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Light card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+<div class="card border-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body text-dark">
+    <h5 class="card-title">Dark card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card border-primary mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body text-primary"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Primary card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card border-secondary mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body text-secondary"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Secondary card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card border-success mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body text-success"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Success card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card border-danger mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body text-danger"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Danger card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card border-warning mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Warning card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card border-info mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Info card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card border-light mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Light card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card border-dark mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body text-dark"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Dark card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="mixins-utilities">Mixins utilities</h1>
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header bg-transparent border-success">Header</div>
+  <div class="card-body text-success">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card&#39;s content.</p>
+  </div>
+  <div class="card-footer bg-transparent border-success">Footer</div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card border-success mb-3"</span> style=<span class="hljs-string">"max-width: 18rem;"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-header bg-transparent border-success"</span>&gt;Header&lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body text-success"</span>&gt;
+    &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Success card title&lt;/h5&gt;
+    &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;Some quick example <span class="hljs-built_in">text</span> <span class="hljs-keyword">to</span> build <span class="hljs-keyword">on</span> <span class="hljs-keyword">the</span> card title <span class="hljs-keyword">and</span> make up <span class="hljs-keyword">the</span> bulk <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> card's content.&lt;/p&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-footer bg-transparent border-success"</span>&gt;Footer&lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h2>Card layout</h2>
+
+<h1 id="card-groups">Card groups</h1>
+<div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-group"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+    &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+      &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+      &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;&lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;&lt;/p&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+    &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+      &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+      &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This card has supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+      &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;&lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;&lt;/p&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+    &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+      &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+      &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This card has even longer content than <span class="hljs-keyword">the</span> <span class="hljs-keyword">first</span> <span class="hljs-keyword">to</span> show <span class="hljs-keyword">that</span> <span class="hljs-keyword">equal</span> height action.&lt;/p&gt;
+      &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;&lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;&lt;/p&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-group"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+    &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+      &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+      &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-footer"</span>&gt;
+      &lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+    &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+      &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+      &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This card has supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-footer"</span>&gt;
+      &lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+    &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+      &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+      &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This card has even longer content than <span class="hljs-keyword">the</span> <span class="hljs-keyword">first</span> <span class="hljs-keyword">to</span> show <span class="hljs-keyword">that</span> <span class="hljs-keyword">equal</span> height action.&lt;/p&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-footer"</span>&gt;
+      &lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><h1 id="grid-cards">Grid cards</h1>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"row row-cols-1 row-cols-md-2 g-4"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"row row-cols-1 row-cols-md-3 g-4"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"row row-cols-1 row-cols-md-3 g-4"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card h-100"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card h-100"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a short card.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card h-100"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card h-100"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a longer card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code>&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"row row-cols-1 row-cols-md-3 g-4"</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card h-100"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This content <span class="hljs-keyword">is</span> a little bit longer.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-footer"</span>&gt;
+        &lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card h-100"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This card has supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-footer"</span>&gt;
+        &lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"col"</span>&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card h-100"</span>&gt;
+      &lt;img src=<span class="hljs-string">"..."</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-img-top"</span> alt=<span class="hljs-string">"..."</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-body"</span>&gt;
+        &lt;h5 <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-title"</span>&gt;Card title&lt;/h5&gt;
+        &lt;p <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-text"</span>&gt;This <span class="hljs-keyword">is</span> a wider card <span class="hljs-keyword">with</span> supporting <span class="hljs-built_in">text</span> <span class="hljs-keyword">below</span> <span class="hljs-keyword">as</span> a natural lead-<span class="hljs-keyword">in</span> <span class="hljs-keyword">to</span> additional content. This card has even longer content than <span class="hljs-keyword">the</span> <span class="hljs-keyword">first</span> <span class="hljs-keyword">to</span> show <span class="hljs-keyword">that</span> <span class="hljs-keyword">equal</span> height action.&lt;/p&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+      &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"card-footer"</span>&gt;
+        &lt;small <span class="hljs-built_in">class</span>=<span class="hljs-string">"text-muted"</span>&gt;Last updated <span class="hljs-number">3</span> mins ago&lt;/small&gt;
+      &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+  &lt;/<span class="hljs-keyword">div</span>&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre><nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="/BUTTONS.html">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="/CAROUSEL.html">Next</a></li>
+  </ul>
+</nav>

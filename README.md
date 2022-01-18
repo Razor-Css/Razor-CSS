@@ -6,6 +6,6 @@ Welcome to the docs! Here you will learn all you need to know about Razor to use
 
 # Components
 
-<a class="btn btn-primary" href="/INTRO.md" role="button">Start viewing the docs</a>
+<a class="btn btn-primary" href="/INTRO.html" role="button">Start viewing the docs</a>
 
 # Carousel close button collapse dropdowns list group modal navs & tabs navbar offcanvas pagination placeholders popovers prigress scrollspy spinners toasts and tooltips are coming soon...

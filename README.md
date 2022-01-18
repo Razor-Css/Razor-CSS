@@ -2,8 +2,6 @@
 <script src="https://cdn.razorcss.xyz/js/bundle.min.js"></script>
 <link href="https://cdn.razorcss.xyz/icons/style.css" rel="stylesheet"></div>
 
-
-
 Welcome to the docs! Here you will learn all you need to know about Razor to use it in your own website!
 
 # Components
